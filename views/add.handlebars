@@ -1,0 +1,27 @@
+<div class="container">
+    <!--<h1>add page</h1>-->
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="/contacts"><button class="btn btn-primary" type="button">Show Contact</button></a>
+    </div>
+    <form action="/contacts/add" method="post" id="add-user">
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="address" class="form-label">Address (Optional)</label>
+        <input type="text" class="form-control" id="address" name="address" placeholder="">
+    </div>
+    <div class="d-grid">
+        <button form="add-user" class="btn btn-primary" type="submit">Add Contact</button>
+    </div>
+    </form>
+</div>
